@@ -5,14 +5,14 @@
   "keywords": ["realtime", "db"],
   "scripts": ["index.js", "document.js"],
   "dependencies": {
-    "learnboost/engine.io-client": "0.7.10",
+    "learnboost/engine.io-client": "*",
     "thebyrd/mongo-query": "*",
-    "cloudup/dot": "0.1.0",
+    "cloudup/dot": "*",
     "component/emitter": "*",
     "component/type": "*",
     "component/clone": "*",
     "bestiejs/json3": "*",
-    "visionmedia/superagent": "0.15.1",
+    "visionmedia/superagent": "*",
     "visionmedia/debug": "*"
   }
 }
