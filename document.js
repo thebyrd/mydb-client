@@ -6,10 +6,10 @@
 var request = require('superagent');
 var query = require('mongo-query');
 var debug = require('debug')('mydb-client:document');
-var dot = require('dot-component');
-var type = require('type-component');
-var clone = require('clone-component');
-var Emitter = require('emitter-component');
+var dot = require('component-dot');
+var type = require('component-type');
+var clone = require('component-clone');
+var Emitter = require('component-emitter');
 
 /**
  * Module exports.
@@ -575,7 +575,7 @@ Document.prototype.destroy = function(fn){
   // unsubscribe if we have a sid
   if (sid) {
     manager.unsubscribe(this, sid);
- 
+
     // get sid before cleanup
     this.$_unloading = sid;
 

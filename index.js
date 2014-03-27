@@ -4,11 +4,11 @@
  */
 
 var debug = require('debug')('mydb-client');
-var type = require('type-component');
+var type = require('component-type');
 var json = require('json3');
-var clone = require('clone-component');
+var clone = require('component-clone');
 var Socket = require('engine.io-client');
-var Emitter = require('emitter-component');
+var Emitter = require('component-emitter');
 var Document = require('./document');
 
 /**
