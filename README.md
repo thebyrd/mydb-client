@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ component install cloudup/mydb-client
+$ component install thebyrd/mydb-client
 ```
 
 ## Example
