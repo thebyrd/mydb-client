@@ -6,10 +6,10 @@
 var request = require('superagent');
 var query = require('mongo-query');
 var debug = require('debug')('mydb-client:document');
-var dot = require('component-dot');
-var type = require('component-type');
-var clone = require('component-clone');
-var Emitter = require('component-emitter');
+var dot = require('dot');
+var type = require('type');
+var clone = require('clone');
+var Emitter = require('emitter');
 
 /**
  * Module exports.
