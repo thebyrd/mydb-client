@@ -11,7 +11,7 @@
     "component/emitter": "*",
     "component/type": "*",
     "component/clone": "*",
-    "component/json": "*",
+    "bestiejs/json3": "*",
     "visionmedia/superagent": "0.15.1",
     "visionmedia/debug": "*"
   }
