@@ -11,7 +11,7 @@
     "component/emitter": "*",
     "component/type": "*",
     "component/clone": "*",
-    "bestiejs/json3@gh-pages": "*",
+    "thebyrd/json3": "*",
     "visionmedia/superagent": "*",
     "visionmedia/debug": "*"
   }
